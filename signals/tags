@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+Direction	Direction.py	/^class Direction(bt.Indicator):$/;"	c
+Internals	Internals.py	/^class Internals(bt.Indicator):$/;"	c
+InternalsSum	InternalsSum.py	/^class InternalsSum(bt.Indicator):$/;"	c
+MA_Cross_Signal	MA_Cross_Signal.py	/^class MA_Cross_Signal(bt.Indicator):$/;"	c
+Structure	Structure.py	/^class Structure(bt.Indicator):$/;"	c
+WilliamSignal	WilliamSignal.py	/^class WilliamSignal(bt.Indicator):$/;"	c
+__init__	Direction.py	/^    def __init__(self):$/;"	m	class:Direction
+__init__	Internals.py	/^    def __init__(self):$/;"	m	class:Internals
+__init__	InternalsSum.py	/^    def __init__(self):$/;"	m	class:InternalsSum
+__init__	MA_Cross_Signal.py	/^    def __init__(self):$/;"	m	class:MA_Cross_Signal
+__init__	Structure.py	/^    def __init__(self):$/;"	m	class:Structure
+__init__	WilliamSignal.py	/^    def __init__(self):$/;"	m	class:WilliamSignal
+_mindatas	Structure.py	/^    _mindatas = 2$/;"	v	class:Structure
+_plotinit	Internals.py	/^    def _plotinit(self):$/;"	m	class:Internals
+bt	Direction.py	/^import backtrader as bt$/;"	I
+bt	Internals.py	/^import backtrader as bt$/;"	I
+bt	InternalsSum.py	/^import backtrader as bt$/;"	I
+bt	MA_Cross_Signal.py	/^import backtrader as bt$/;"	I
+bt	Structure.py	/^import backtrader as bt$/;"	I
+bt	WilliamSignal.py	/^import backtrader as bt$/;"	I
+btind	MA_Cross_Signal.py	/^import backtrader.indicators as btind$/;"	I
+btind	WilliamSignal.py	/^import backtrader.indicators as btind$/;"	I
+compute_sum	Internals.py	/^    def compute_sum(self):$/;"	m	class:Internals
+getdefault	Structure.py	/^    def getdefault(self):$/;"	m	class:Structure
+lines	Direction.py	/^    lines = ("direction", "intermediate", "ll", "hh", "rlz")$/;"	v	class:Direction
+lines	Internals.py	/^    lines = ("signal", "sum", "rsi", "macd", "willy")$/;"	v	class:Internals
+lines	InternalsSum.py	/^    lines = ("signal", )$/;"	v	class:InternalsSum
+lines	MA_Cross_Signal.py	/^    lines = ("ma_cross",)$/;"	v	class:MA_Cross_Signal
+lines	Structure.py	/^    lines = ("signal", "upstate", "downstate")$/;"	v	class:Structure
+lines	WilliamSignal.py	/^    lines = ("price_location", "ranging", "ma_direction", 'ma_cross')$/;"	v	class:WilliamSignal
+next	Direction.py	/^    def next(self):$/;"	m	class:Direction
+next	Internals.py	/^    def next(self):$/;"	m	class:Internals
+next	InternalsSum.py	/^    def next(self):$/;"	m	class:InternalsSum
+next	MA_Cross_Signal.py	/^    def next(self):$/;"	m	class:MA_Cross_Signal
+next	Structure.py	/^    def next(self):$/;"	m	class:Structure
+next	WilliamSignal.py	/^    def next(self):$/;"	m	class:WilliamSignal
+normalize_signal	Internals.py	/^    def normalize_signal(self, th):$/;"	m	class:Internals
+params	Direction.py	/^    params = dict()$/;"	v	class:Direction
+params	Internals.py	/^    params = dict(shift=7, threshold=3, show_indicators=False)$/;"	v	class:Internals
+params	InternalsSum.py	/^    params = dict(threshold=3)$/;"	v	class:InternalsSum
+params	MA_Cross_Signal.py	/^    params = dict()$/;"	v	class:MA_Cross_Signal
+params	Structure.py	/^    params = dict(shift=3)$/;"	v	class:Structure
+params	WilliamSignal.py	/^    params = dict()$/;"	v	class:WilliamSignal
+plotinfo	Direction.py	/^    plotinfo = dict($/;"	v	class:Direction
+plotinfo	Internals.py	/^    plotinfo = dict($/;"	v	class:Internals
+plotinfo	InternalsSum.py	/^    plotinfo = dict($/;"	v	class:InternalsSum
+plotinfo	MA_Cross_Signal.py	/^    plotinfo = dict($/;"	v	class:MA_Cross_Signal
+plotinfo	Structure.py	/^    plotinfo = dict($/;"	v	class:Structure
+plotinfo	WilliamSignal.py	/^    plotinfo = dict($/;"	v	class:WilliamSignal
+plotlines	Direction.py	/^    plotlines = dict($/;"	v	class:Direction
+plotlines	Internals.py	/^    plotlines = dict($/;"	v	class:Internals
+plotlines	InternalsSum.py	/^    plotlines = dict($/;"	v	class:InternalsSum
+plotlines	MA_Cross_Signal.py	/^    plotlines = dict(ma_cross=dict(color="black", ls="--"))$/;"	v	class:MA_Cross_Signal
+plotlines	Structure.py	/^    plotlines = dict($/;"	v	class:Structure
+plotlines	WilliamSignal.py	/^    plotlines = dict($/;"	v	class:WilliamSignal
+reset	Structure.py	/^    def reset(self):$/;"	m	class:Structure
+update_downstate	Structure.py	/^    def update_downstate(self, close, low, high, s, ll, lh, hl, hh):$/;"	m	class:Structure
+update_upstate	Structure.py	/^    def update_upstate(self, close, low, high, s, ll, lh, hl, hh):$/;"	m	class:Structure

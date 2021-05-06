@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["Piotr Yordanov <48773775+piotryordanov@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+backtrader = {extras = ["plotting"], version = "^1.9.76"}
+matplotlib = "3.2.2"
+texttable = "^1.6.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

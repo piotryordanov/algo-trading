@@ -1,0 +1,269 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+ADX	ADX.py	/^class ADX(bt.Indicator):$/;"	c
+ATR	ATR.py	/^class ATR(bt.Indicator):$/;"	c
+Direction	Direction.py	/^class Direction(bt.Indicator):$/;"	c
+Divergence	Divergence.py	/^class Divergence(bt.Indicator):$/;"	c
+EdgeFractal	EdgeFractal.py	/^class EdgeFractal(bt.Indicator):$/;"	c
+Edges	Edges.py	/^class Edges(bt.Indicator):$/;"	c
+FillFractal	FillFractal.py	/^class FillFractal(bt.Indicator):$/;"	c
+Fractal	Fractal.py	/^class Fractal(bt.Indicator):$/;"	c
+Fractal_161	Fractal_161.py	/^class Fractal_161(bt.Indicator):$/;"	c
+Lines_161	Lines_161.py	/^class Lines_161(bt.Indicator):$/;"	c
+MACD	MACD.py	/^class MACD(bt.Indicator):$/;"	c
+RSI	RSI.py	/^class RSI(bt.Indicator):$/;"	c
+RSI_Fractal	RSI_Fractal.py	/^class RSI_Fractal(bt.Indicator):$/;"	c
+RSI_divergence	RSI_divergence.py	/^class RSI_divergence(bt.Indicator):$/;"	c
+Ranging	Ranging.py	/^class Ranging(bt.Indicator):$/;"	c
+Regression	Regression.py	/^class Regression(bt.Indicator):$/;"	c
+SNP	SupportAndResistance.py	/^class SNP(bt.Indicator):$/;"	c
+Trail	Trail.py	/^class Trail(bt.ind.PeriodN):$/;"	c
+Trail_ATR	Trail_ATR.py	/^class Trail_ATR(bt.ind.PeriodN):$/;"	c
+Trail_Fractal	Trail_Fractal.py	/^class Trail_Fractal(bt.ind.PeriodN):$/;"	c
+Trend	Trend.py	/^class Trend(bt.Indicator):$/;"	c
+WilliamAlligator	WilliamAlligator.py	/^class WilliamAlligator(bt.Indicator):$/;"	c
+Willy	Willy.py	/^class Willy(bt.Indicator):$/;"	c
+__init__	ADX.py	/^    def __init__(self):$/;"	m	class:ADX
+__init__	ATR.py	/^    def __init__(self):$/;"	m	class:ATR
+__init__	Direction.py	/^    def __init__(self):$/;"	m	class:Direction
+__init__	Divergence.py	/^    def __init__(self):$/;"	m	class:Divergence
+__init__	EdgeFractal.py	/^    def __init__(self):$/;"	m	class:EdgeFractal
+__init__	Edges.py	/^    def __init__(self):$/;"	m	class:Edges
+__init__	FillFractal.py	/^    def __init__(self):$/;"	m	class:FillFractal
+__init__	Fractal.py	/^    def __init__(self):$/;"	m	class:Fractal
+__init__	Fractal_161.py	/^    def __init__(self):$/;"	m	class:Fractal_161
+__init__	Lines_161.py	/^    def __init__(self):$/;"	m	class:Lines_161
+__init__	MACD.py	/^    def __init__(self):$/;"	m	class:MACD
+__init__	RSI.py	/^    def __init__(self):$/;"	m	class:RSI
+__init__	RSI_Fractal.py	/^    def __init__(self):$/;"	m	class:RSI_Fractal
+__init__	RSI_divergence.py	/^    def __init__(self):$/;"	m	class:RSI_divergence
+__init__	Ranging.py	/^    def __init__(self):$/;"	m	class:Ranging
+__init__	Regression.py	/^    def __init__(self):$/;"	m	class:Regression
+__init__	SupportAndResistance.py	/^    def __init__(self):$/;"	m	class:SNP
+__init__	Trail.py	/^    def __init__(self):$/;"	m	class:Trail
+__init__	Trail_ATR.py	/^    def __init__(self):$/;"	m	class:Trail_ATR
+__init__	Trail_Fractal.py	/^    def __init__(self):$/;"	m	class:Trail_Fractal
+__init__	Trend.py	/^    def __init__(self):$/;"	m	class:Trend
+__init__	WilliamAlligator.py	/^    def __init__(self):$/;"	m	class:WilliamAlligator
+__init__	Willy.py	/^    def __init__(self):$/;"	m	class:Willy
+__init__	indicator_hhll.py	/^    def __init__(self):$/;"	m	class:indicator_hhll
+__init__	indicator_llhh.py	/^    def __init__(self):$/;"	m	class:indicator_llhh
+__init__	trend.py	/^    def __init__(self):$/;"	m	class:trend
+_mindatas	Direction.py	/^    _mindatas = 3$/;"	v	class:Direction
+_mindatas	Divergence.py	/^    _mindatas = 2$/;"	v	class:Divergence
+_mindatas	RSI_Fractal.py	/^    _mindatas = 1$/;"	v	class:RSI_Fractal
+_mindatas	RSI_divergence.py	/^    _mindatas = 2$/;"	v	class:RSI_divergence
+_mindatas	SupportAndResistance.py	/^    _mindatas = 3$/;"	v	class:SNP
+_mindatas	Trail.py	/^    _mindatas = 1$/;"	v	class:Trail
+_mindatas	Trail_ATR.py	/^    _mindatas = 1$/;"	v	class:Trail_ATR
+_mindatas	Trail_Fractal.py	/^    _mindatas = 2$/;"	v	class:Trail_Fractal
+_mindatas	Trend.py	/^    _mindatas = 3$/;"	v	class:Trend
+_mindatas	indicator_hhll.py	/^    _mindatas = 2$/;"	v	class:indicator_hhll
+_mindatas	indicator_llhh.py	/^    _mindatas = 2$/;"	v	class:indicator_llhh
+_mindatas	trend.py	/^    _mindatas = 3$/;"	v	class:trend
+_plotinit	EdgeFractal.py	/^    def _plotinit(self):$/;"	m	class:EdgeFractal
+_plotinit	Edges.py	/^    def _plotinit(self):$/;"	m	class:Edges
+_plotinit	Fractal.py	/^    def _plotinit(self):$/;"	m	class:Fractal
+_plotinit	Trail.py	/^    def _plotinit(self):$/;"	m	class:Trail
+adjust_window	Divergence.py	/^    def adjust_window(self, info):$/;"	m	class:Divergence
+adjust_window	RSI_divergence.py	/^    def adjust_window(self, info):$/;"	m	class:RSI_divergence
+bt	ADX.py	/^import backtrader as bt$/;"	I
+bt	ATR.py	/^import backtrader as bt$/;"	I
+bt	Direction.py	/^import backtrader as bt$/;"	I
+bt	Divergence.py	/^import backtrader as bt$/;"	I
+bt	EdgeFractal.py	/^import backtrader as bt$/;"	I
+bt	Edges.py	/^import backtrader as bt$/;"	I
+bt	FillFractal.py	/^import backtrader as bt$/;"	I
+bt	Fractal.py	/^import backtrader as bt$/;"	I
+bt	Fractal_161.py	/^import backtrader as bt$/;"	I
+bt	Lines_161.py	/^import backtrader as bt$/;"	I
+bt	MACD.py	/^import backtrader as bt$/;"	I
+bt	RSI.py	/^import backtrader as bt$/;"	I
+bt	RSI_Fractal.py	/^import backtrader as bt$/;"	I
+bt	RSI_divergence.py	/^import backtrader as bt$/;"	I
+bt	Ranging.py	/^import backtrader as bt$/;"	I
+bt	Regression.py	/^import backtrader as bt$/;"	I
+bt	SupportAndResistance.py	/^import backtrader as bt$/;"	I
+bt	Trail.py	/^import backtrader as bt$/;"	I
+bt	Trail_ATR.py	/^import backtrader as bt$/;"	I
+bt	Trail_Fractal.py	/^import backtrader as bt$/;"	I
+bt	Trend.py	/^import backtrader as bt$/;"	I
+bt	WilliamAlligator.py	/^import backtrader as bt$/;"	I
+bt	Willy.py	/^import backtrader as bt$/;"	I
+bt	indicator_hhll.py	/^import backtrader as bt$/;"	I
+bt	indicator_llhh.py	/^import backtrader as bt$/;"	I
+bt	trend.py	/^import backtrader as bt$/;"	I
+btind	ADX.py	/^import backtrader.indicators as btind$/;"	I
+btind	ATR.py	/^import backtrader.indicators as btind$/;"	I
+btind	Divergence.py	/^import backtrader.indicators as btind$/;"	I
+btind	MACD.py	/^import backtrader.indicators as btind$/;"	I
+btind	RSI.py	/^import backtrader.indicators as btind$/;"	I
+btind	RSI_divergence.py	/^import backtrader.indicators as btind$/;"	I
+btind	Ranging.py	/^import backtrader.indicators as btind$/;"	I
+btind	Regression.py	/^import backtrader.indicators as btind$/;"	I
+btind	SupportAndResistance.py	/^import backtrader.indicators as btind$/;"	I
+btind	Trail_ATR.py	/^import backtrader.indicators as btind$/;"	I
+btind	Trail_Fractal.py	/^import backtrader.indicators as btind$/;"	I
+btind	Trend.py	/^import backtrader.indicators as btind$/;"	I
+btind	WilliamAlligator.py	/^import backtrader.indicators as btind$/;"	I
+btind	Willy.py	/^import backtrader.indicators as btind$/;"	I
+btind	indicator_hhll.py	/^import backtrader.indicators as btind$/;"	I
+btind	trend.py	/^import backtrader.indicators as btind$/;"	I
+color	FillFractal.py	/^color = 'red'$/;"	v
+compute	Divergence.py	/^    def compute(self, info, curr):$/;"	m	class:Divergence
+compute	RSI_divergence.py	/^    def compute(self, info, curr):$/;"	m	class:RSI_divergence
+debug	EdgeFractal.py	/^debug = False$/;"	v
+draw_range	Ranging.py	/^    def draw_range(self):$/;"	m	class:Ranging
+draw_range	Trend.py	/^    def draw_range(self):$/;"	m	class:Trend
+draw_range	indicator_hhll.py	/^    def draw_range(self):$/;"	m	class:indicator_hhll
+draw_range	indicator_llhh.py	/^    def draw_range(self):$/;"	m	class:indicator_llhh
+draw_range	trend.py	/^    def draw_range(self, direction, rlz):$/;"	m	class:trend
+extend_lines	SupportAndResistance.py	/^    def extend_lines(self):$/;"	m	class:SNP
+find_doublebottom	Ranging.py	/^    def find_doublebottom(self):$/;"	m	class:Ranging
+find_doubletop	Ranging.py	/^    def find_doubletop(self):$/;"	m	class:Ranging
+find_intermediates	Fractal_161.py	/^    def find_intermediates(self, t):$/;"	m	class:Fractal_161
+indicator_hhll	indicator_hhll.py	/^class indicator_hhll(bt.Indicator):$/;"	c
+indicator_llhh	indicator_llhh.py	/^class indicator_llhh(bt.Indicator):$/;"	c
+lines	ADX.py	/^    lines = ("adx", "adxr", "MA")$/;"	v	class:ADX
+lines	ATR.py	/^    lines = ("ATR", "SMMA")$/;"	v	class:ATR
+lines	Direction.py	/^    lines = ("direction", "")$/;"	v	class:Direction
+lines	Divergence.py	/^    lines = ("divergence", "")$/;"	v	class:Divergence
+lines	EdgeFractal.py	/^    lines = ("hh", "ll", "hline", "lline", "oph", "opl", "p33", "p66")$/;"	v	class:EdgeFractal
+lines	Edges.py	/^    lines = ("upper", "lower", "h", "l", "p33", "p66", "direction")$/;"	v	class:Edges
+lines	FillFractal.py	/^    lines = ($/;"	v	class:FillFractal
+lines	Fractal.py	/^    lines = ($/;"	v	class:Fractal
+lines	Fractal_161.py	/^    lines = ($/;"	v	class:Fractal_161
+lines	Lines_161.py	/^    lines = ("ll", "hh", "rlz", "direction")$/;"	v	class:Lines_161
+lines	MACD.py	/^    lines = ("histo", "histo_line", "signal")$/;"	v	class:MACD
+lines	RSI.py	/^    lines = ("rsi", "signal", "divergence")$/;"	v	class:RSI
+lines	RSI_Fractal.py	/^    lines = ("signal", "signal_continuous")$/;"	v	class:RSI_Fractal
+lines	RSI_divergence.py	/^    lines = ("divergence", "threshold_cross", "signal")$/;"	v	class:RSI_divergence
+lines	Ranging.py	/^    lines = ("hh", "ll", "higher", "lower")$/;"	v	class:Ranging
+lines	Regression.py	/^    lines = ("regression",)$/;"	v	class:Regression
+lines	SupportAndResistance.py	/^    lines = lines + tuple([name])$/;"	v
+lines	SupportAndResistance.py	/^    lines = lines$/;"	v	class:SNP
+lines	SupportAndResistance.py	/^lines = tuple()$/;"	v
+lines	Trail.py	/^    lines = ("lowest", "highest")$/;"	v	class:Trail
+lines	Trail_ATR.py	/^    lines = ('lowest', 'highest', 'atr_lower_ref', 'atr_upper_ref')$/;"	v	class:Trail_ATR
+lines	Trail_Fractal.py	/^    lines = ('lowest', 'highest', 'fractal_bearish_lh', 'fractal_bearish_hh', 'fractal_bullish_l/;"	v	class:Trail_Fractal
+lines	Trend.py	/^    lines = ("lower", "upper", "p50", "p33", "p66", "p786", "sl", "e1", "e125", "target", "targe/;"	v	class:Trend
+lines	WilliamAlligator.py	/^    lines = ("jaw", "teeth", "lips")$/;"	v	class:WilliamAlligator
+lines	Willy.py	/^    lines = ("willy", "ema", "signal", "divergence")$/;"	v	class:Willy
+lines	indicator_hhll.py	/^    lines = ('lower', 'upper', 'sl', 'e1', 'p33', 'p66', 'target')$/;"	v	class:indicator_hhll
+lines	indicator_llhh.py	/^    lines = ("lower", "upper", "sl", "e1", "p33", "p66", "target")$/;"	v	class:indicator_llhh
+lines	trend.py	/^    lines = ("lower", "upper", "p50", "p33", "p66", "p786", 'sl', 'e1', 'target')$/;"	v	class:trend
+marker	FillFractal.py	/^marker = '$-$'$/;"	v
+name	SupportAndResistance.py	/^    name = "resistance_line%d" % (i)$/;"	v
+name	SupportAndResistance.py	/^    name = "support_line%d" % (i)$/;"	v
+next	Direction.py	/^    def next(self):$/;"	m	class:Direction
+next	Divergence.py	/^    def next(self):$/;"	m	class:Divergence
+next	EdgeFractal.py	/^    def next(self):$/;"	m	class:EdgeFractal
+next	Edges.py	/^    def next(self):$/;"	m	class:Edges
+next	FillFractal.py	/^    def next(self):$/;"	m	class:FillFractal
+next	Fractal.py	/^    def next(self):$/;"	m	class:Fractal
+next	Fractal_161.py	/^    def next(self):$/;"	m	class:Fractal_161
+next	Lines_161.py	/^    def next(self):$/;"	m	class:Lines_161
+next	RSI.py	/^    def next(self):$/;"	m	class:RSI
+next	RSI_Fractal.py	/^    def next(self):$/;"	m	class:RSI_Fractal
+next	RSI_divergence.py	/^    def next(self):$/;"	m	class:RSI_divergence
+next	Ranging.py	/^    def next(self):$/;"	m	class:Ranging
+next	SupportAndResistance.py	/^    def next(self):$/;"	m	class:SNP
+next	Trail.py	/^    def next(self):$/;"	m	class:Trail
+next	Trail_ATR.py	/^    def next(self):$/;"	m	class:Trail_ATR
+next	Trail_Fractal.py	/^    def next(self):$/;"	m	class:Trail_Fractal
+next	Trend.py	/^    def next(self):$/;"	m	class:Trend
+next	WilliamAlligator.py	/^    def next(self):$/;"	m	class:WilliamAlligator
+next	Willy.py	/^    def next(self):$/;"	m	class:Willy
+next	indicator_hhll.py	/^    def next(self):$/;"	m	class:indicator_hhll
+next	indicator_llhh.py	/^    def next(self):$/;"	m	class:indicator_llhh
+next	trend.py	/^    def next(self):$/;"	m	class:trend
+params	ADX.py	/^    params = dict()$/;"	v	class:ADX
+params	ATR.py	/^    params = dict(period=30)$/;"	v	class:ATR
+params	Direction.py	/^    params = dict()$/;"	v	class:Direction
+params	Divergence.py	/^    params = dict(shift=Fractal_Right_Shift, max_window=50)$/;"	v	class:Divergence
+params	EdgeFractal.py	/^    params = dict(initial=2)$/;"	v	class:EdgeFractal
+params	Edges.py	/^    params = dict(initial=50)$/;"	v	class:Edges
+params	FillFractal.py	/^    params = dict(bardist=0.0003, left_shift=Fractal_Left_Shift, right_shift=Fractal_Right_Shift/;"	v	class:FillFractal
+params	Fractal.py	/^    params = dict($/;"	v	class:Fractal
+params	Fractal_161.py	/^    params = dict($/;"	v	class:Fractal_161
+params	Lines_161.py	/^    params = dict(shift=10)$/;"	v	class:Lines_161
+params	MACD.py	/^    params = dict(shift=7)$/;"	v	class:MACD
+params	RSI.py	/^    params = dict(shift=7, period=14)$/;"	v	class:RSI
+params	RSI_Fractal.py	/^    params = dict(cutoff=3, fractal_shift=7)$/;"	v	class:RSI_Fractal
+params	RSI_divergence.py	/^    params = dict(fractal_shift=Fractal_Right_Shift, max_window=500, rsi_period=14)$/;"	v	class:RSI_divergence
+params	Ranging.py	/^    params = dict(shift=10, threshold=15)$/;"	v	class:Ranging
+params	Regression.py	/^    params = dict(period=30)$/;"	v	class:Regression
+params	SupportAndResistance.py	/^    params = dict()$/;"	v	class:SNP
+params	Trail.py	/^    params = dict(LineColor="gray")$/;"	v	class:Trail
+params	Trail_ATR.py	/^    params = ($/;"	v	class:Trail_ATR
+params	Trend.py	/^    params = dict()$/;"	v	class:Trend
+params	WilliamAlligator.py	/^    params = dict()$/;"	v	class:WilliamAlligator
+params	Willy.py	/^    params = dict(shift=7, period=14)$/;"	v	class:Willy
+params	indicator_hhll.py	/^    params = dict($/;"	v	class:indicator_hhll
+params	indicator_llhh.py	/^    params = dict(shift=4)$/;"	v	class:indicator_llhh
+params	trend.py	/^    params = dict()$/;"	v	class:trend
+plotinfo	ADX.py	/^    plotinfo = dict($/;"	v	class:ADX
+plotinfo	ATR.py	/^    plotinfo = dict($/;"	v	class:ATR
+plotinfo	Direction.py	/^    plotinfo = dict($/;"	v	class:Direction
+plotinfo	Divergence.py	/^    plotinfo = dict($/;"	v	class:Divergence
+plotinfo	EdgeFractal.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:EdgeFractal
+plotinfo	Edges.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:Edges
+plotinfo	FillFractal.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:FillFractal
+plotinfo	Fractal.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:Fractal
+plotinfo	Fractal_161.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:Fractal_161
+plotinfo	Lines_161.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:Lines_161
+plotinfo	MACD.py	/^    plotinfo = dict($/;"	v	class:MACD
+plotinfo	RSI.py	/^    plotinfo = dict($/;"	v	class:RSI
+plotinfo	RSI_Fractal.py	/^    plotinfo = dict($/;"	v	class:RSI_Fractal
+plotinfo	RSI_divergence.py	/^    plotinfo = dict($/;"	v	class:RSI_divergence
+plotinfo	Ranging.py	/^    plotinfo = dict(subplot=False)$/;"	v	class:Ranging
+plotinfo	Regression.py	/^    plotinfo = dict(subplot=True)$/;"	v	class:Regression
+plotinfo	SupportAndResistance.py	/^    plotinfo = dict(subplot=False)$/;"	v	class:SNP
+plotinfo	Trail.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:Trail
+plotinfo	Trail_ATR.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:Trail_ATR
+plotinfo	Trail_Fractal.py	/^    plotinfo = dict(subplot=False, plotlinelabels=False, plot=True)$/;"	v	class:Trail_Fractal
+plotinfo	Trend.py	/^    plotinfo = dict($/;"	v	class:Trend
+plotinfo	WilliamAlligator.py	/^    plotinfo = dict(subplot=False)$/;"	v	class:WilliamAlligator
+plotinfo	Willy.py	/^    plotinfo = dict($/;"	v	class:Willy
+plotinfo	indicator_hhll.py	/^    plotinfo = dict($/;"	v	class:indicator_hhll
+plotinfo	indicator_llhh.py	/^    plotinfo = dict($/;"	v	class:indicator_llhh
+plotinfo	trend.py	/^    plotinfo = dict($/;"	v	class:trend
+plotlines	ADX.py	/^    plotlines = dict(adx=dict(color="black", _fill_lt=(20, "lime")))$/;"	v	class:ADX
+plotlines	ATR.py	/^    plotlines = dict(ATR=dict(color="black"))$/;"	v	class:ATR
+plotlines	Direction.py	/^    plotlines = dict($/;"	v	class:Direction
+plotlines	Divergence.py	/^    plotlines = dict(divergence=dict(color="orange", ls="--"))$/;"	v	class:Divergence
+plotlines	EdgeFractal.py	/^    plotlines = dict($/;"	v	class:EdgeFractal
+plotlines	Edges.py	/^    plotlines = dict($/;"	v	class:Edges
+plotlines	FillFractal.py	/^    plotlines = dict($/;"	v	class:FillFractal
+plotlines	Fractal.py	/^    plotlines = dict($/;"	v	class:Fractal
+plotlines	Fractal_161.py	/^    plotlines = dict($/;"	v	class:Fractal_161
+plotlines	Lines_161.py	/^    plotlines = dict()$/;"	v	class:Lines_161
+plotlines	MACD.py	/^    plotlines = dict($/;"	v	class:MACD
+plotlines	RSI.py	/^    plotlines = dict($/;"	v	class:RSI
+plotlines	RSI_Fractal.py	/^    plotlines = dict(signal=dict(color="black", ls="--"))$/;"	v	class:RSI_Fractal
+plotlines	RSI_divergence.py	/^    plotlines = dict($/;"	v	class:RSI_divergence
+plotlines	Ranging.py	/^    plotlines = dict($/;"	v	class:Ranging
+plotlines	SupportAndResistance.py	/^    plotlines = plotlines$/;"	v	class:SNP
+plotlines	SupportAndResistance.py	/^plotlines = dict()$/;"	v
+plotlines	Trail.py	/^    plotlines = dict($/;"	v	class:Trail
+plotlines	Trail_ATR.py	/^    plotlines = dict($/;"	v	class:Trail_ATR
+plotlines	Trail_Fractal.py	/^    plotlines = dict($/;"	v	class:Trail_Fractal
+plotlines	Trend.py	/^    plotlines = dict($/;"	v	class:Trend
+plotlines	WilliamAlligator.py	/^    plotlines = dict($/;"	v	class:WilliamAlligator
+plotlines	Willy.py	/^    plotlines = dict($/;"	v	class:Willy
+plotlines	indicator_hhll.py	/^    plotlines = dict($/;"	v	class:indicator_hhll
+plotlines	indicator_llhh.py	/^    plotlines = dict($/;"	v	class:indicator_llhh
+plotlines	trend.py	/^    plotlines = dict($/;"	v	class:trend
+reset	Divergence.py	/^    def reset(self):$/;"	m	class:Divergence
+reset	RSI_divergence.py	/^    def reset(self):$/;"	m	class:RSI_divergence
+reset	Ranging.py	/^    def reset(self):$/;"	m	class:Ranging
+reset	indicator_hhll.py	/^    def reset(self):$/;"	m	class:indicator_hhll
+reset	indicator_llhh.py	/^    def reset(self):$/;"	m	class:indicator_llhh
+trend	trend.py	/^class trend(bt.Indicator):$/;"	c
+update	Edges.py	/^    def update(self):$/;"	m	class:Edges
+update_intermediates_idx	Fractal_161.py	/^    def update_intermediates_idx(self):$/;"	m	class:Fractal_161

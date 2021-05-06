@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+BaseStrategy	BaseStrategy.py	/^class BaseStrategy(bt.Strategy):$/;"	c
+Bold	Bold.py	/^class Bold(BaseStrategy):$/;"	c
+Divergence	Divergence.py	/^class Divergence(BaseStrategy):$/;"	c
+EducatedGambler	EducatedGambler.py	/^class EducatedGambler(BaseStrategy):$/;"	c
+HHLL_Long_Strategy	HHLL_Long_Strategy.py	/^class HHLL_Long_Strategy(BaseStrategy):$/;"	c
+MACross	MACross.py	/^class MACross(BaseStrategy):$/;"	c
+S161	S161.py	/^class S161(BaseStrategy):$/;"	c
+__init__	BaseStrategy.py	/^    def __init__(self):$/;"	m	class:BaseStrategy
+__init__	Bold.py	/^    def __init__(self):$/;"	m	class:Bold
+__init__	Divergence.py	/^    def __init__(self):$/;"	m	class:Divergence
+__init__	EducatedGambler.py	/^    def __init__(self):$/;"	m	class:EducatedGambler
+__init__	HHLL_Long_Strategy.py	/^    def __init__(self):$/;"	m	class:HHLL_Long_Strategy
+__init__	MACross.py	/^    def __init__(self):$/;"	m	class:MACross
+__init__	S161.py	/^    def __init__(self):$/;"	m	class:S161
+bt	BaseStrategy.py	/^import backtrader as bt$/;"	I
+bt	Bold.py	/^import backtrader as bt$/;"	I
+bt	Divergence.py	/^import backtrader as bt$/;"	I
+bt	EducatedGambler.py	/^import backtrader as bt$/;"	I
+bt	HHLL_Long_Strategy.py	/^import backtrader as bt$/;"	I
+bt	MACross.py	/^import backtrader as bt$/;"	I
+bt	S161.py	/^import backtrader as bt$/;"	I
+btind	Bold.py	/^import backtrader.indicators as btind$/;"	I
+btind	Divergence.py	/^import backtrader.indicators as btind$/;"	I
+btind	EducatedGambler.py	/^import backtrader.indicators as btind$/;"	I
+btind	HHLL_Long_Strategy.py	/^import backtrader.indicators as btind$/;"	I
+btind	MACross.py	/^import backtrader.indicators as btind$/;"	I
+btind	S161.py	/^import backtrader.indicators as btind$/;"	I
+close_trade	BaseStrategy.py	/^    def close_trade(self, t, amount):$/;"	m	class:BaseStrategy
+create_trade	BaseStrategy.py	/^    def create_trade(self, direction='Long', entry=0, Type='market', sl=0, target=0):$/;"	m	class:BaseStrategy
+init_trades	BaseStrategy.py	/^    def init_trades(self):$/;"	m	class:BaseStrategy
+log	BaseStrategy.py	/^    def log(self, txt, dt=None):$/;"	m	class:BaseStrategy
+long_fractal_shift	EducatedGambler.py	/^long_fractal_shift = 5$/;"	v
+next	Bold.py	/^    def next(self):$/;"	m	class:Bold
+next	Divergence.py	/^    def next(self):$/;"	m	class:Divergence
+next	EducatedGambler.py	/^    def next(self):$/;"	m	class:EducatedGambler
+next	HHLL_Long_Strategy.py	/^    def next(self):$/;"	m	class:HHLL_Long_Strategy
+next	MACross.py	/^    def next(self):$/;"	m	class:MACross
+next	S161.py	/^    def next(self):$/;"	m	class:S161
+params	BaseStrategy.py	/^    params = dict($/;"	v	class:BaseStrategy
+params	Bold.py	/^    params = dict()$/;"	v	class:Bold
+params	Divergence.py	/^    params = dict(right_shift=1, left_shift=20)$/;"	v	class:Divergence
+params	EducatedGambler.py	/^    params = dict(left_shift=7, right_shift=5)$/;"	v	class:EducatedGambler
+params	HHLL_Long_Strategy.py	/^    params = dict($/;"	v	class:HHLL_Long_Strategy
+params	MACross.py	/^    params = dict(period=500, MA=btind.EMA)$/;"	v	class:MACross
+params	S161.py	/^    params = dict(period=500, MA=btind.EMA)$/;"	v	class:S161
+short_fractal_shift	EducatedGambler.py	/^short_fractal_shift = 2$/;"	v
+stop	BaseStrategy.py	/^    def stop(self):$/;"	m	class:BaseStrategy
+threshold	EducatedGambler.py	/^threshold = 3$/;"	v
+update_cash	BaseStrategy.py	/^    def update_cash(self, amount):$/;"	m	class:BaseStrategy
+update_trades	BaseStrategy.py	/^    def update_trades(self):$/;"	m	class:BaseStrategy

@@ -1,0 +1,53 @@
+import backtrader as bt
+from backtrader import Analyzer
+from backtrader.utils import AutoOrderedDict
+
+
+class Analyzer(Analyzer):
+    def __init__(self):
+        self.rets = AutoOrderedDict()
+        self.counts = AutoOrderedDict()
+        self.counts.signals = 0
+        self.counts.pnlshort = 0
+        self.counts.pnllong = 0
+        self.counts.pnl = 0
+        self.counts.wins = 0
+        self.counts.losses = 0
+        self.counts.winrate = 0
+
+    def get_analysis(self):
+        self.counts.winrate = round(self.counts.wins / (self.counts.wins + self.counts.losses), 2) * 100
+        self.counts.pnlshort = round(self.counts.pnlshort, 2)
+        self.counts.pnllong = round(self.counts.pnllong, 2)
+        self.counts.pnl = round(self.counts.pnl, 2)
+        portfolio = self.strategy.p.initial_cash
+        self.counts.preturn = round(self.counts.pnl / portfolio, 2) * 100
+        return dict(self.counts)
+
+    def stop(self):
+        self.rets._close()
+
+    def notify_trade(self, trade):
+        if trade.isclosed:
+            t = self.strategy.closedTrade
+            
+            # print(t['entry'])
+            # print(t['sl'].price)
+            if t['direction'] == 'long':
+                pnl = round((t['sl'].price - t['entry']) * t['actualSize'], 2)
+                self.counts.pnllong += pnl
+                self.counts.pnl += pnl
+            else:
+                pnl = round((t['entry'] - t['sl'].price) * t['actualSize'], 2)
+                self.counts.pnlshort += pnl
+                self.counts.pnl += pnl
+            if pnl > 0:
+                self.counts.wins += 1
+            else:
+                self.counts.losses += 1
+            # print('CLOSED TRADE %.0f -- Gross: %.4f  -- Net: %.4f -- PNL: %.2f -- Size: %.5f' % (trade.tradeid, round(trade.pnl,2), round(trade.pnlcomm,2), pnl, t['actualSize']))
+
+    def next(self):
+        current = self.strategy.overunder[0]
+        if current == 3 or current == -3:
+            self.counts.signals += 1
