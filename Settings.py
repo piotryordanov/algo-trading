@@ -9,11 +9,11 @@ assetClass = ["CFD", "Forex", "Forex"]
 # Asset
 Asset = Assets[index]
 AssetClass = assetClass[index]
-FromDate = datetime(2018, 1, 1)
-ToDate = datetime(2018, 5, 1)
+# FromDate = datetime(2016, 1, 1)
+# ToDate = datetime(2018, 5, 1)
 
-# FromDate = datetime(2000, 1, 1)
-# ToDate = datetime(2020, 7, 13)
+FromDate = datetime(2021, 10, 5)
+ToDate = datetime(2021, 10, 7)
 
 # Trade Management
 Max_Loss = 5
@@ -21,7 +21,7 @@ Max_Lot = 100
 Compound = True
 Initial_Cash = 10000
 Trades_Direction = 1  # 1: Both - 2: Long - 3: Short
-One_Position_Per_Time = True
+One_Position_Per_Time = False
 
 # Trail Management
 TakeOnTarget = False

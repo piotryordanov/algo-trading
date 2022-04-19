@@ -5,10 +5,10 @@ from indicators.Divergence import Divergence
 
 
 class RSI(bt.Indicator):
-    params = dict(shift=7, period=14)
+    params = dict(shift=7, period=2)
     lines = ("rsi", "signal", "divergence")
     plotlines = dict(
-        rsi=dict(color="black", _fill_gt=(70, "red"), _fill_lt=(30, "lime")),
+        rsi=dict(color="black", _fill_gt=(95, "red"), _fill_lt=(5, "lime")),
         signal=dict(_plotskip=True),
         divergence=dict(_plotskip=True),
         edge_levels=dict(_plotskip=True)
@@ -17,9 +17,9 @@ class RSI(bt.Indicator):
         # Add extra margins above and below the 1s and -1s
         plotymargin=0.15,
         # Plot a reference horizontal line at 1.0 and -1.0
-        plothlines=[30.0, 70.0],
+        plothlines=[5.0, 95.0],
         # Simplify the y scale to 1.0 and -1.0
-        plotyticks=[30.0, 70.0],
+        plotyticks=[5.0, 95.0],
     )
 
     def __init__(self):

@@ -21,16 +21,39 @@ default_settings = dict(
     openinterest=-1,
 )
 
-def get_data(dataname):
+def get_data(dataname, provider):
     timeframe = bt.TimeFrame.Minutes
-    compression = 240
+    compression = 1
     # compression = 60
-    data = bt.feeds.GenericCSVData(
-        dataname=OHLC_DIR + dataname,
-        timeframe=timeframe,
-        compression=compression,
-        **default_settings
-    )
+    if provider == 'standard':
+        data = bt.feeds.GenericCSVData(
+            dataname=OHLC_DIR + dataname,
+            timeframe=timeframe,
+            compression=compression,
+            **default_settings
+        )
+    elif provider == 'crypto':
+        settings = dict(
+# 9/22/2021 12:00:00 AM +01:00,0.068121,0.068125,0.068002,0.068054,
+            dtformat='%m/%d/%Y %H:%M:%S +01:00',
+            datetime=0,
+            time=-1,
+            open=1,
+            close=4,
+            high=2,
+            low=3,
+            volume=-1,
+            openinterest=-1
+        )
+        data = bt.feeds.GenericCSVData(
+            dataname=OHLC_DIR + dataname,
+            fromdate=FromDate,
+            todate=ToDate,
+            nullvalue=0.0,
+            timeframe=timeframe,
+            compression=compression,
+            **settings
+        )
     # data.plotinfo.plotlog = True
     # data.plotinfo.plotylimited = True
     return data

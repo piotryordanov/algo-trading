@@ -6,7 +6,7 @@ authors = ["Piotr Yordanov <48773775+piotryordanov@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-backtrader = {extras = ["plotting"], version = "^1.9.76"}
+backtrader = {git = "https://github.com/backtrader2/backtrader"}
 matplotlib = "3.2.2"
 texttable = "^1.6.3"
 

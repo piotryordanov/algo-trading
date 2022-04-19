@@ -14,6 +14,7 @@ from strategies.HHLL_Long_Strategy import HHLL_Long_Strategy
 from strategies.EducatedGambler import EducatedGambler
 from strategies.SAR_Strategy import SARStrategy
 from strategies.MACross import MACross
+from strategies.RSI import RSI_Strategy
 
 ### ==================================
 ### Init
@@ -24,14 +25,16 @@ cerebro = bt.Cerebro(stdstats=False, optreturn=False)
 ### ==================================
 ### Get the Data
 ### ==================================
-data0 = get_data("FX/4h/EURUSD.csv")
+# data0 = get_data("FX/4h/EURUSD.csv", "standard")
+data0 = get_data("crypto/Chart.csv", "crypto")
 cerebro.adddata(data0)
 
 
 ### ==================================
 #### Add the strategies
 ### ==================================
-cerebro.addstrategy(HHLL_Long_Strategy)
+# cerebro.addstrategy(HHLL_Long_Strategy)
+cerebro.addstrategy(RSI_Strategy)
 # cerebro.addstrategy(EducatedGambler)
 # cerebro.addstrategy(SARStrategy)
 # cerebro.addstrategy(MACross, period=50)
